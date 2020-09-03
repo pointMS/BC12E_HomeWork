@@ -27,23 +27,13 @@ public class Person {
         return secondName;
     }
 
-    public boolean isTheType(AddressType type){
-        for(PersonAddress p : personAddresses){
-            if(p.getType()== AddressType.BILLING){
+    public boolean isTheType(AddressType type) {
+        for (PersonAddress p : personAddresses) {
+            if (p.getType() == AddressType.BILLING) {
                 return false;
             }
         }
         return true;
-    }
-
-    public List<PersonAddress> getAddress(AddressType type) {
-        List<PersonAddress> res = new ArrayList<>();
-        for (PersonAddress p : personAddresses) {
-            if (p.getType().equals(type)) {
-                res.add(p);
-            }
-        }
-        return res;
     }
 
     public void addAddress(PersonAddress address) {
