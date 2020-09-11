@@ -7,7 +7,6 @@ public class Company {
     private String typeOfOwnership;
     private String companyName;
 
-
     public Company(String typeOfOwnership, String companyName) {
                 this.typeOfOwnership = typeOfOwnership;
         this.companyName = companyName;

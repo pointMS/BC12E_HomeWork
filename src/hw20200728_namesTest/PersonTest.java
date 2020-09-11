@@ -1,4 +1,4 @@
-package hw_namesTest_0728;
+package hw20200728_namesTest;
 
 /**
  * JavaAdvanced 29.07.2020

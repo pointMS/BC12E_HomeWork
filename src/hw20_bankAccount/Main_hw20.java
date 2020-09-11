@@ -10,8 +10,6 @@ public class Main_hw20 {
                 "AG:Microsoft  Iban:DE1492178765",
                 "GmbH:Pupkin SoftLab  Iban:DE1552358796",
                 "e.V.:PupkinSoftLab  Iban:DE1638267112"};
-
-
     }
 
     public static BankClient[] getBankClientArray(String[] names) {

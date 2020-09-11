@@ -1,4 +1,4 @@
-package hw_arrays_removeTest;
+package arrays_removeTest;
 
 import java.util.Arrays;
 

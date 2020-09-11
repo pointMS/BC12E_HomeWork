@@ -1,4 +1,4 @@
-package hw_arrays_removeTest;
+package arrays_removeTest;
 
 public class Test1 {
     private int[] array;
