@@ -1,4 +1,4 @@
-package interfaceDemo;
+package hw20200825_interfaceDemo;
 
 public class ConditionStartsWith implements Condition{
     String firstLetter;

@@ -9,6 +9,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        //Дан список Person (names, List). У каждой персоны есть список адресов.
+        //Сформировать список персон у которых нет адреса с типом Billing
+
         Person p1 = new Person("Ringo", "Starr");
         p1.addAddress(new PersonAddress("mail123@mail.com", AddressType.EMAIL));
         p1.addAddress(new PersonAddress("Berlin", AddressType.POST));

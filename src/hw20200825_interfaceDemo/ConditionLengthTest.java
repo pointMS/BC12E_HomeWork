@@ -1,4 +1,4 @@
-package interfaceDemo;
+package hw20200825_interfaceDemo;
 
 import org.junit.jupiter.api.Test;
 

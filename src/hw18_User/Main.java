@@ -1,4 +1,4 @@
-package hw18;
+package hw18_User;
 
 /**
  * JavaAdvanced 08.07.2020

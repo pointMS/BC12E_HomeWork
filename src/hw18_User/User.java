@@ -1,4 +1,4 @@
-package hw18;
+package hw18_User;
 
 import java.util.Objects;
 
