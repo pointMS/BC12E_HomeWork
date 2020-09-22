@@ -28,19 +28,9 @@ public class Main {
         String strKeys = "";
         for (String s : list) {
             if (map.containsKey(s)) {
-                strKeys = strKeys + s;
-            } else {
-                return map;
-            }
-        }
+                strKeys += s;
+                sumValues += map.get(s);
 
-        System.out.println("list: " + list.toString());
-        System.out.println("strKeys: " + strKeys);
-
-        for (Integer i : map.values()) {
-            //сравнение не работает, если сделать отрицание условия в if, то складывает все values
-            if (list.toString().equals(strKeys)) {
-                sumValues = sumValues + i;
             } else {
                 return map;
             }
