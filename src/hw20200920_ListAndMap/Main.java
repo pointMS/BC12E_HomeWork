@@ -28,7 +28,10 @@ public class Main {
         String strKeys = "";
         for (String s : list) {
             if (map.containsKey(s)) {
+                StringBuilder sb = new StringBuilder(s);
+
                 strKeys += s;
+
                 sumValues += map.get(s);
 
             } else {
